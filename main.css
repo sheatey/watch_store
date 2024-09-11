@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Bebas Neue", sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    background-color: black;
+    padding: 24px 0;
+    color: white;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    align-items: flex-start;
+}
+
+header nav li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 24px;
+}
+
+header ul li {
+    display: inline;
+    margin-right: 16px;
+}
+
+main section p {
+    font-family: "Open Sans", sans-serif;
+}
+
+main section .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 120px 16px 0 16px;
+    align-items: flex-start;
+}
+
+main section .content-img {
+    margin-right: 16px;
+}
+
+main section .content-about h2 {
+    font-size: 32px;
+    padding: 12px 0;
+}
+
+main section .content-about ul {
+    display: flex;
+    list-style-type: none;
+}
+
+main section .content-about ul li {
+    margin-right: 8px;
+}
+
+main section .content-about ul li img {
+    height: 36px;
+}
+
+main section .content-about p {
+    margin: 8px 0;
+}
+
+.social-links img {
+    width: 24px;
+}
+
+.mesage form {
+    display: inline;
+    justify-content: space-between;
+    align-items: center;
+}
+
+form input,
+form textarea,
+form button {
+    font-family: "Open Sans", sans-serif;
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+.contact h2 {
+    margin: 8px 16px 0 16px;
+}
+
+.contact-methods, #contact h2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 8px 16px 0 16px;
+    align-items: flex-start;
+}
+
+form button {
+    font-family: "Bebas Neue", sans-serif;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 16px;
+    font-size: 24px;
+}
+
+form button:hover {
+    background-color: rgb(44, 44, 44);
+}
+
+.social-links {
+    display: flex;
+}
+
+.social-links li {
+    margin-right: 16px;
+}
+
+.social .social-links li {
+    list-style-type: none;
+}
+
+.address p {
+    font-size: 16px;
+}
+
+h2 {
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+h3 {
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+footer {
+    padding: 16px;
+    background-color: black;
+    color: white;
+    margin-top: 32px;
+}
+
